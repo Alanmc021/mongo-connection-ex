@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const dbUser = "2019azimutewebrep";
-const dbPassword = "mxcIwTP4gWNlY4w6";
+const dbUser = "";
+const dbPassword = "";
 
 const connect = () => {
   mongoose.connect(
