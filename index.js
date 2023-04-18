@@ -15,7 +15,7 @@ const connect = () => {
   });
 
   connection.on("open", () => {
-    console.log("Conetado ao mongoDB com sucesso!");
+    console.log("Conetado ao mongoDB com sucesso!!");
 
     // Criando o modelo do schema
     const userSchema = new mongoose.Schema({
